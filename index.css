@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #8ECAE6;
+    padding: 1.5rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5em;
+    color: #023047;
+}
+
+#container {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 20px;
+    min-height: 20px;
+    padding: 20px;
+    background-color: #FFB703;
+    border: 15px solid #FB8500;
+}
+
+#video {
+    display: none;
+}
+
+#canvas {
+    height: 100%;
+}
+
+#detectButton {
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+    font-size: 2em;
+    background-color: #219EBC;
+}
+
+#detectButton:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px 2px #000000;
+}
