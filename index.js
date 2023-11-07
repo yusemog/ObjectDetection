@@ -96,6 +96,8 @@ let detecting = false;
 const handleClick = async () => {
     // If currently not detecting, detect objects
     if (!detecting) {
+        button.textContent = "DETECTING...";
+        
         detecting = true;
 
         // Stop updating canvas
